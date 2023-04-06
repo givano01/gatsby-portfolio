@@ -1,6 +1,5 @@
 import * as React from "react"
 import LandingPage from "../components/landing-page"
-import Layout from "../components/layout";
 import ProjectPreview from "../components/project-preview"
 import { StaticImage } from 'gatsby-plugin-image'
 import "../styles/layout.scss"
