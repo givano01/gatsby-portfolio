@@ -1,0 +1,136 @@
+$green: #a3e4c6;
+$blue:  #021f3c; 
+$darkGreen: #35979e;
+$lightBlue: #0c4373;
+$font: 'Source Sans Pro', sans-serif;
+$font2:'Montserrat', sans-serif;
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.home-page{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    position: relative;
+    background: linear-gradient(
+        to top,
+        $blue 0%,
+        $lightBlue 50%,
+        $lightBlue 50%,
+        $darkGreen 100%
+    );
+
+    
+    //background-color: $blue;
+
+    .image-container{
+        background-color: white;
+        width: 250px;
+        height: 250px;
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50);
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        border: 10px solid white;
+        transition: 0.5s;
+    
+        img{
+            display: inline-block;
+            border-radius: 50%;
+            margin: 0 auto;
+    
+        }
+    
+    }
+    .image-container:hover{
+        background-color: black;
+        border: 10px solid white;
+        top: 37%;
+        
+    }
+    .icons{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50);
+        transform: translate(-50%, -50%);
+
+        .icon{
+            color: white;
+            font-size: 40px;
+            padding: 0 12px;
+            
+            
+        }
+    }
+
+    .title-name{
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50);
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        //font-weight: bold;
+        letter-spacing: 2px;
+        font-family: $font;
+        font-weight: bold;
+        
+
+        .name{
+            color: white;
+        }
+    }
+
+    .title-text{
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50);
+        transform: translate(-50%, -50%);
+        font-family: $font;
+        
+
+        .line-1{
+            position: relative;
+            top: 50%;  
+            width: 24em;
+            margin: 0 auto;
+            border-right: 2px solid rgba(255,255,255,.75);
+            font-size: 150%;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            transform: translateY(-50%);
+            color: white;    
+        }
+        
+        .anim-typewriter{
+          animation: typewriter 3.5s steps(44) 1s infinite normal both,
+                     blinkTextCursor 500ms steps(44) infinite normal;
+        }
+        @keyframes typewriter{
+          from{width: 0;}
+          to{width: 13em;}
+        }
+        @keyframes blinkTextCursor{
+          from{border-right-color: rgba(255,255,255,.75);}
+          to{border-right-color: transparent;}
+        }
+      
+
+    }
+
+    
+}
+
+    

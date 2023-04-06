@@ -1,5 +1,5 @@
 import * as React from "react"
-import "../styles/style.scss"
+import "../styles/landing-page.scss"
 import { StaticImage } from "gatsby-plugin-image"
 import useSiteMetadata from "../hooks/use-site-metadata"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -17,10 +17,7 @@ const  HomePage = () => {
                     alt="Portrait of Georgi Ivanov"
                     src="../images/portrait.png"
                 >
-                
                 </StaticImage>
-                
-            {/* */}
             </div>
             <div className="icons">
                 <a className="icon" target="_blank"
@@ -32,9 +29,15 @@ const  HomePage = () => {
                     <FontAwesomeIcon icon={faGithub} beatFade/>
                 </a>
             </div>
-            <div className="name">
-                <span className="name-blue">GIV</span><span className="name-green">ANO</span>
+            <div className="title-name">
+                <p className="name">I'm Givano</p>
+                
             </div>
+            <div className="title-text">
+                <p className="line-1 anim-typewriter"> a creative front-end developer</p>
+
+            </div>
+
         </main>
     )
 

@@ -1,0 +1,75 @@
+
+$font: 'Source Sans Pro', sans-serif;
+$font2:'Montserrat', sans-serif;
+$green: #a3e4c6;
+$blue:  #021f3c; 
+$darkGreen: #35979e;
+$lightBlue: #0c4373;
+.project-container{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+   
+
+    .info-container{
+        position: relative;
+        flex: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1{
+            font-family: $font;
+            font-size: 30px;
+            color: $blue;
+            
+        }
+
+        h3{
+            font-size: 20px;
+            padding-top: 10px;
+            color: $lightBlue;
+            text-align: center;
+            font-family: $font2;
+        }
+        p{
+            padding-top: 10px;
+            width: 300px;
+            text-align: center;
+            margin: 0 auto;
+            font-family: $font2;
+            line-height: 1.5;
+            color: $blue;
+        }
+        
+        a{
+            padding-top: 10px;
+            margin: 0 auto;
+            display:flex;
+            justify-content: center;
+            text-decoration: none;
+            font-family: $font2;
+            color: $darkGreen;
+        }
+
+    }
+
+    .image-container{
+        position: relative;
+        flex: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+        img{
+            width: 80%;
+            border-radius: 10px;
+            margin: 0 auto;
+            
+        }
+
+    }
+
+}
