@@ -95,6 +95,8 @@ $font2:'Montserrat', sans-serif;
         position: absolute;
         top: 85%;
         left: 50%;
+        text-align: center;
+        margin: 0 auto;
         -ms-transform: translate(-50%, -50);
         transform: translate(-50%, -50%);
         font-family: $font;
