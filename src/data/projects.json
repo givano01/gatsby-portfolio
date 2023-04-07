@@ -1,16 +1,31 @@
 [
-    {
-       "title": "Digital agency website",
-       "slug": "Project-1",
-       "tags": ["Javascript, HTML, CSS"],
-       "url": "https://givano01.github.io/InfiniTECH/",
-       "description": "This website was developed as a side project. The concept of it is 'digital agency' that provide different services. By developing this project, I practiced my skills and expanded my creativity."
-    },
-    {
-        "title": "'Rock, Paper, Scissors' Game",
-        "slug": "Project-2",
-        "tags": ["Javascript, HTML, SCSS"],
-        "url": "https://givano01.github.io/RPS-Game/",
-        "description": "This is a digital version of the well known game 'Rock, Paper Scissors'. Here you play against the computer and the goal is making 3 points. The game is interactive and have a score box that updates itself."
-     }
+      {
+      "title": "Digital agency website",
+      "slug": "Project-1",
+      "tags": ["Javascript, HTML, CSS"],
+      "url": "https://givano01.github.io/InfiniTECH/",
+      "description": "This website was developed as a side project. The concept of it is 'digital agency' that provide different services. By developing this project, I practiced my skills and expanded my creativity."
+      },
+      {
+         "title": "'Rock, Paper, Scissors' Game",
+         "slug": "Project-2",
+         "tags": ["Javascript, HTML, SCSS"],
+         "url": "https://givano01.github.io/RPS-Game/",
+         "description": "This is a digital version of the well known game 'Rock, Paper Scissors'. Here you play against the computer and the goal is making 3 points. The game is interactive and have a score box that updates itself."
+      },
+      {
+         "title": "'Shopping cart' Functionality",
+         "slug": "Project-3",
+         "tags": ["React, Bootstrap"],
+         "url": "https://counter-app-navy.vercel.app/",
+         "description": "In this 'shopping cart' you can add, delete and reset items as well as increasing or decreasing each item's number. "
+      },
+      {
+         "title": "Text converting page",
+         "slug": "Project-4",
+         "tags": ["Javascript, HTML, CSS"],
+         "url": "https://givano01.github.io/text-generator/",
+         "description": "This project represents a simple page that convert text you type to lower case, UPPERCASE, and Title Case. The generated text can be copied or cleared by one click."
+      }
+      
 ]
