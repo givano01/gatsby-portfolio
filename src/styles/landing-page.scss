@@ -212,7 +212,10 @@ $font2:'Montserrat', sans-serif;
     
             .name{
                 color: white;
+                clear: both;
                 display: inline-block;
+                overflow: hidden;
+                white-space: nowrap;
             }
         }
     
