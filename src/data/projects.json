@@ -16,9 +16,9 @@
       {
          "title": "Website assignment",
          "slug": "Project-3",
-         "tags": ["Wordpress"],
+         "tags": ["Wordpress, CSS"],
          "url": "https://www.tmhkran.no/",
-         "description": "This website was an assignment by 'TMH Kran og Transport'. My task was to digitalize their firm by creating digital profile and making them visible online."
+         "description": "This website was taken as an assignment by 'TMH Kran og Transport'. My task was to digitalize their firm by creating digital profile and making them visible online."
       },
       {
          "title": "'Shopping cart' Functionality",
@@ -33,6 +33,13 @@
          "tags": ["Javascript, HTML, CSS"],
          "url": "https://givano01.github.io/text-generator/",
          "description": "This project represents a simple page that convert text you type to lower case, UPPERCASE, and Title Case. The generated text can be copied or cleared by one click."
+      },
+      {
+         "title": "Chore door game",
+         "slug": "Project-6",
+         "tags": ["Javascript, HTML, CSS"],
+         "url": "https://givano01.github.io/chore-door-game/",
+         "description": "This is my first Javascript project. You have to open the door with the 'bot' last and the goal is to get highest score possible."
       }
       
       

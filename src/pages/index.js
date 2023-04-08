@@ -72,7 +72,7 @@ const IndexPage = () => {
         <hr/>
         {/*Project 5*/}
         <div className="project-container">
-          <div className = "info-container">
+            <div className = "info-container">
               <ProjectPreview slug="Project-5" />
           </div>
           <div className = "image-container">
@@ -82,10 +82,23 @@ const IndexPage = () => {
                   src="../images/text-generator.png"
               /> 
             </a>
-          </div>
-            
+          </div>   
         </div>
         <hr/>
+        {/*Project 6*/}
+        <div className="project-container">
+          <div className = "image-container">
+            <a href="https://givano01.github.io/chore-door-game/">
+              <StaticImage
+                  alt="Digital agency website"
+                  src="../images/chore-door.png"
+              /> 
+            </a>
+          </div>
+          <div className = "info-container">
+              <ProjectPreview slug="Project-6" />
+          </div>
+        </div>
 
         
       </div>

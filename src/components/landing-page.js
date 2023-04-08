@@ -30,7 +30,7 @@ const  HomePage = () => {
                 </a>
             </div>
             <div className="title-name">
-                <p className="name">I'm Givano</p>
+                <p className="name">I'm Givano...</p>
                 
             </div>
             <div className="title-text">
