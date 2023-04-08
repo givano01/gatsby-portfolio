@@ -14,11 +14,11 @@
          "description": "This is a digital version of the well known game 'Rock, Paper Scissors'. Here you play against the computer and the goal is making 3 points. The game is interactive and have a score box that updates itself."
       },
       {
-         "title": "'Assignment' Website",
+         "title": "Website of TMH",
          "slug": "Project-3",
          "tags": ["Wordpress, CSS"],
          "url": "https://www.tmhkran.no/",
-         "description": "This website was taken as an assignment by 'TMH Kran og Transport'. My task was to digitalize their firm by creating digital profile and making them visible online."
+         "description": "This website was developed as an assignment by 'TMH Kran og Transport'. My task was to digitalize the firm by creating digital profile and making them visible online."
       },
       {
          "title": "'Shopping cart' Functionality",
