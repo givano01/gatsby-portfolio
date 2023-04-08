@@ -15,20 +15,25 @@ const IndexPage = () => {
               <ProjectPreview slug="Project-1" />
           </div>
           <div className = "image-container">
-              <StaticImage
-                  alt="Digital agency website"
-                  src="../images/infiniTech.png"
-              /> 
+              <a href="https://givano01.github.io/InfiniTECH/">
+                <StaticImage
+                    alt="Digital agency website"
+                    src="../images/infiniTech.png"
+                /> 
+              </a>
           </div>
         </div>
         <hr/>
         {/*Project 2*/}
+        
         <div className="project-container">
           <div className = "image-container">
+          <a href="https://givano01.github.io/RPS-Game/">
             <StaticImage
                 alt="Digital agency website"
                 src="../images/rps-game.png"
             /> 
+          </a>
           </div>
           <div className = "info-container">
               <ProjectPreview slug="Project-2" />
@@ -41,24 +46,44 @@ const IndexPage = () => {
               <ProjectPreview slug="Project-3" />
           </div>
           <div className = "image-container">
-              <StaticImage
-                  alt="Digital agency website"
-                  src="../images/counter-app.png"
-              /> 
+              <a href="https://www.tmhkran.no/">
+                <StaticImage
+                    alt="Digital agency website"
+                    src="../images/tmh-website.png"
+                /> 
+              </a>
           </div>
         </div>
         <hr/>
         {/*Project 4*/}
         <div className="project-container">
           <div className = "image-container">
-            <StaticImage
-                alt="Digital agency website"
-                src="../images/text-generator.png"
-            /> 
+            <a href="https://counter-app-navy.vercel.app/">
+              <StaticImage
+                  alt="Digital agency website"
+                  src="../images/counter-app.png"
+              /> 
+            </a>
           </div>
           <div className = "info-container">
               <ProjectPreview slug="Project-4" />
-          </div>  
+          </div>
+        </div>
+        <hr/>
+        {/*Project 5*/}
+        <div className="project-container">
+          <div className = "info-container">
+              <ProjectPreview slug="Project-5" />
+          </div>
+          <div className = "image-container">
+            <a href="https://givano01.github.io/text-generator/">
+              <StaticImage
+                  alt="Digital agency website"
+                  src="../images/text-generator.png"
+              /> 
+            </a>
+          </div>
+            
         </div>
         <hr/>
 

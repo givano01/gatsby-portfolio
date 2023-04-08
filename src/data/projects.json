@@ -9,23 +9,31 @@
       {
          "title": "'Rock, Paper, Scissors' Game",
          "slug": "Project-2",
-         "tags": ["Javascript, HTML, SCSS"],
+         "tags": ["Javascript, HTML, SASS"],
          "url": "https://givano01.github.io/RPS-Game/",
          "description": "This is a digital version of the well known game 'Rock, Paper Scissors'. Here you play against the computer and the goal is making 3 points. The game is interactive and have a score box that updates itself."
       },
       {
-         "title": "'Shopping cart' Functionality",
+         "title": "Website assignment",
          "slug": "Project-3",
+         "tags": ["Wordpress"],
+         "url": "https://www.tmhkran.no/",
+         "description": "This website was an assignment by 'TMH Kran og Transport'. My task was to digitalize their firm by creating digital profile and making them visible online."
+      },
+      {
+         "title": "'Shopping cart' Functionality",
+         "slug": "Project-4",
          "tags": ["React, Bootstrap"],
          "url": "https://counter-app-navy.vercel.app/",
-         "description": "In this 'shopping cart' you can add, delete and reset items as well as increasing or decreasing each item's number. "
+         "description": "In this simple 'shopping cart' functionality you can add, delete and reset items as well as increasing or decreasing each item's number. "
       },
       {
          "title": "Text converting page",
-         "slug": "Project-4",
+         "slug": "Project-5",
          "tags": ["Javascript, HTML, CSS"],
          "url": "https://givano01.github.io/text-generator/",
          "description": "This project represents a simple page that convert text you type to lower case, UPPERCASE, and Title Case. The generated text can be copied or cleared by one click."
       }
+      
       
 ]
