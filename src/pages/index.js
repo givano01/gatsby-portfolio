@@ -15,7 +15,7 @@ const IndexPage = () => {
               <ProjectPreview slug="Project-1" />
           </div>
           <div className = "image-container">
-              <a href="https://givano01.github.io/InfiniTECH/">
+              <a href="https://givano01.github.io/infiniTech-website/">
                 <StaticImage
                     alt="Digital agency website"
                     src="../images/infiniTech.png"
@@ -28,9 +28,9 @@ const IndexPage = () => {
         
         <div className="project-container">
           <div className = "image-container">
-          <a href="https://givano01.github.io/RPS-Game/">
+          <a href="https://givano01.github.io/rps-game/">
             <StaticImage
-                alt="Digital agency website"
+                alt="Rock, paper, scissors game"
                 src="../images/rps-game.png"
             /> 
           </a>
@@ -48,7 +48,7 @@ const IndexPage = () => {
           <div className = "image-container">
               <a href="https://www.tmhkran.no/">
                 <StaticImage
-                    alt="Digital agency website"
+                    alt="Website of TMH"
                     src="../images/tmh-website.png"
                 /> 
               </a>
@@ -60,7 +60,7 @@ const IndexPage = () => {
           <div className = "image-container">
             <a href="https://counter-app-navy.vercel.app/">
               <StaticImage
-                  alt="Digital agency website"
+                  alt="'Shoping cart functionality' app"
                   src="../images/counter-app.png"
               /> 
             </a>
@@ -76,9 +76,9 @@ const IndexPage = () => {
               <ProjectPreview slug="Project-5" />
           </div>
           <div className = "image-container">
-            <a href="https://givano01.github.io/text-generator/">
+            <a href="https://givano01.github.io/text-converter/">
               <StaticImage
-                  alt="Digital agency website"
+                  alt="Text converting page"
                   src="../images/text-generator.png"
               /> 
             </a>
@@ -90,7 +90,7 @@ const IndexPage = () => {
           <div className = "image-container">
             <a href="https://givano01.github.io/chore-door-game/">
               <StaticImage
-                  alt="Digital agency website"
+                  alt="Chore door game"
                   src="../images/chore-door.png"
               /> 
             </a>
