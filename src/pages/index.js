@@ -4,6 +4,7 @@ import ProjectPreview from "../components/project-preview"
 import Footer from "../components/footer"
 import { StaticImage } from 'gatsby-plugin-image'
 import "../styles/layout.scss"
+import SEO from "../components/seo"
 
 const IndexPage = () => {
 
@@ -107,5 +108,7 @@ const IndexPage = () => {
   };
   
   export default IndexPage;
-  export const Head = () => <title>GIVANO | Portfolio</title>
+  export const Head = () => (
+    <SEO />
+  )
   

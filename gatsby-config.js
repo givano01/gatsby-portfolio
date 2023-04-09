@@ -3,8 +3,9 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Portfolio gatsby`,
-    siteUrl: `https://www.yourdomainga.tld`,
+    title: `Portfolio to GIVANO`,
+    description: "This is a web porfio that contains front-end projects",
+    siteUrl: `https://www.givano.no`,
     social: {
       linkedIn: `givano`,
       github: `givano01`
