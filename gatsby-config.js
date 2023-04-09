@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Portfolio to GIVANO`,
+    title: `Portfolio | GIVANO`,
     description: "This is a web porfio that contains front-end projects",
     siteUrl: `https://www.givano.no`,
     social: {
