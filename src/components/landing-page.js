@@ -9,7 +9,6 @@ import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 
 const  HomePage = () => {
     const { social } = useSiteMetadata();
-    console.log(social.linkedIn)
     return(
         <main className="home-page">
             <div className="image-container">

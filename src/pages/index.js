@@ -1,6 +1,7 @@
 import * as React from "react"
 import LandingPage from "../components/landing-page"
 import ProjectPreview from "../components/project-preview"
+import Footer from "../components/footer"
 import { StaticImage } from 'gatsby-plugin-image'
 import "../styles/layout.scss"
 
@@ -100,7 +101,7 @@ const IndexPage = () => {
           </div>
         </div>
 
-        
+      <Footer />
       </div>
     );
   };

@@ -1,0 +1,58 @@
+$green: #a3e4c6;
+$blue:  #021f3c; 
+$darkGreen: #35979e;
+$lightBlue: #0c4373;
+$font: 'Source Sans Pro', sans-serif;
+$font2:'Montserrat', sans-serif;
+
+
+.footer-container{
+    height:15vh;
+    display:flex;
+    position: relative;
+    background: linear-gradient(
+        to top,
+        $blue 0%,
+        $lightBlue 50%,
+        $lightBlue 50%,
+    );
+
+    .text-container{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50);
+        transform: translate(-50%, -50%);
+
+        p{
+            text-align: center;
+            line-height: 2;
+            color: white;
+            font-family: $font2;
+
+            span{
+                font-weight: 700;
+            
+            }
+        }
+
+        
+
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .footer-container{
+            height: 20vh;
+
+        .text-container{
+
+            p{
+
+                font-size: 14px;
+            }
+        }
+    }
+}
