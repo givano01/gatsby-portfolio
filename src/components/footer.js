@@ -8,7 +8,7 @@ const Footer = () =>{
 
             <div className="text-container">
                 <p>This portfolio was made with <span>Gatsby.JS</span> and <span>SASS</span>.<br/>
-                Gatsby is the fastest frontend framework which is based on React.</p>
+                Gatsby is the fastest frontend framework which is based on <span>React</span>.</p>
             </div>
 
         </div>
