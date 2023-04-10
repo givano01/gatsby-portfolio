@@ -18,7 +18,8 @@ module.exports = {
   "gatsby-plugin-sharp", 
   "gatsby-transformer-sharp",
   "gatsby-transformer-json",
-  "gatsby-image", 
+  "gatsby-image",
+  'gatsby-plugin-preload-fonts',
   {
     resolve: 'gatsby-source-filesystem',
     options: {

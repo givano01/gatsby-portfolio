@@ -4,13 +4,33 @@ import { StaticImage } from "gatsby-plugin-image"
 import useSiteMetadata from "../hooks/use-site-metadata"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
-
+import { Helmet } from 'react-helmet';
 
 
 const  HomePage = () => {
     const { social } = useSiteMetadata();
     return(
+        
         <main className="home-page">
+            <Helmet>
+                <style>
+                {`
+                    body {
+                    font-family: "Montserrat", sans-serif;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    }
+                `}
+                </style>
+                <link
+                    rel="stylesheet"
+                    href="../styles/landing-page.scss"
+                    defer
+                />
+            {/*<script
+            src="/path/to/non-critical.js"
+            defer
+                />*/}
+            </Helmet>
             <div className="image-container">
                 <StaticImage
                     alt="Portrait of Georgi Ivanov"
